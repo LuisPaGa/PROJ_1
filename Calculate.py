@@ -1,0 +1,19 @@
+def suma(a,b):
+    return a + b
+def resta(a,b):
+    return a - b  
+def mult(a,b):
+    return a * b
+def div(a,b):
+    if b == 0:
+        print ('No se puede ejecutar la operaciòn, divisor es 0')
+    else:
+        return a / b
+
+
+
+
+a = float (input('Ingrese número 1: '))
+b = float (input('Ingrese número 2: '))
+
+print(f'Suma es: {suma(a,b)}, Resta es: {resta(a,b)}, Multiplicación es: {mult(a,b)}, División es: {div(a,b)}')
